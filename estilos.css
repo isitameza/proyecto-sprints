@@ -1,0 +1,123 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+font-family: sans-serif;
+padding: 90px 20px 0;
+}
+
+#formulario{
+	background: #0769e9;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#menu_principal{
+	display: flex;
+	justify-content:space-between;
+	max-width: 2500px;
+	margin: 0 auto;
+}
+
+.menu-link{
+	color: white;
+	text-decoration: none;
+}
+
+#button_register{
+	margin-top: 20px;
+	font-size: 20px;
+   font-weight: bold;
+	padding: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+#menu{
+	display: flex;
+	margin-right: 100px;
+	list-style: none;
+
+}
+
+.menu-link{
+	font-size: 20px;
+	margin: 0 60px;
+	line-height: 80px;
+	width: max-content;
+}
+
+#menu{
+	padding: 10px;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+#menu a:hover{
+	background-color:#034574;
+
+}
+
+
+
+#form{
+width: 400 px;
+background: #0769e9;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: "calibri";
+color: white;
+
+}
+
+#form h3{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.control{
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+
+}
+
+.control{
+	color: white;
+	text-decoration: none;
+}
+
+
+.control a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+#datos{
+	width: 100%;
+	background: 1f535c;
+	border: none;
+	padding: 12px;
+}
+#form ul{
+
+	display: flex;
+	justify-content:space-between;
+	max-width: 2500px;
+	margin: 0 auto;
+}
